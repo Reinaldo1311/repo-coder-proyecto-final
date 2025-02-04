@@ -53,6 +53,7 @@ header nav ul li a {
     align-items: center;
     list-style: none;
     padding: 0px 10px;
+    margin-bottom: 0 !important;
 }
 
 .barra>ul>li {

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Parkinsans:wght@300..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=Oswald:wght@200..700&family=PT+Sans:wght@400;700&family=Parkinsans:wght@300..800&display=swap"
+        rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <header class="bloque-form">
+        <h1>Orinoco Group</h1>
+        <nav class="barra">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./lavado-full.html">Lavado Full</a></li>
+                <li><a href="./limpieza-de-tapiceria.html">Limpieza de Tapicería</a></li>
+                <li><a href="./lavado-de-motor.html">Lavado de Motor</a></li>
+                <li><a href="./polarizado-cerificado.html">Polarizado Certificado</a></li>
+                <li><a href="./pulida-de-faros.html">Pulida de Faros</a></li>
+                <li><a href="./detailing.html">Detailing</a></li>
+                
+    </header>
+
+    <main>
+        <form action="/submit" method="post">
+            <p>Servicios disponibles:</p>
+            <div>
+                <label for="servicios" class="form-servicios">Lavado Full</label>
+                <input type="radio">
+    
+                <label for="servicios" class="form-servicios">Limpieza de Asientos</label>
+                <input type="radio">
+    
+                <label for="servicios" class="form-servicios">Limpieza de Techo</label>
+                <input type="radio">
+    
+                <label for="servicios" class="form-servicios">Limpieza de Piso</label>
+                <input type="radio">
+    
+                <label for="servicios" class="form-servicios">Limpieza de Plasticos</label>
+                <input type="radio">
+    
+                <label for="servicios" class="form-servicios">Polarizado Certificado</label>
+                <input type="radio">
+    
+                <label for="servicios" class="form-servicios">Lavado de Motor</label>
+                <input type="radio">
+    
+                <label for="servicios" class="form-servicios">Pulida de Faros</label>
+                <input type="radio">
+    
+                <label for="servicios" class="form-servicios">Detailing</label>
+                <input type="radio">
+            </div>
+           
+
+            <p>Tipó de vehículo</p>
+
+            <Select>
+                <option value="">Sedan</option>
+                <option value="">Hatchback</option>
+                <option value="">Suv</option>
+                <option value="">Suv 7 puestos</option>
+                <option value="">Vans</option>
+                <option value="">Camioneta</option>
+                <option value="">Camioneta Minera</option>
+                <option value="">Furgon</option>
+            </Select>
+
+           <label for="modelo">Modelo del vehículo</label>
+           <textarea name="" id="modelo" class="area-texto"></textarea>
+
+           <label for="nombre">Nombre del Cliente:</label>
+           <input type="text" class="cuadro-texto">
+
+           <label for="contacto">Número de Contacto</label>
+           <input type="number" class="cuadro-texto">
+
+           <input type="submit" value="Enviar" class="boton">
+
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet pharetra magna. Aliquam maximus
+            maximus
+            posuere. Vivamus varius urna vel neque consectetur, in sodales justo fringilla.
+        </p>
+        <h3>Contactanos</h3>
+        <div class="nav-contactos">
+            <a href="https://www.instagram.com/" target="_blank" class="contactos-escala"><img class="contactos" src="../img/instalogo (1).png"
+                    alt="Instagram"></a>
+            <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank" class="contactos-escala"><img class="contactos"
+                    src="../img/wslogo (1).png" alt="WhatsApp"></a>
+            <a href="" target="_blank" class="contactos-escala"><img class="contactos" src="../img/llamada.png" alt="Llamada"></a>
+        </div>
+    </footer>
+</body>
+</html>

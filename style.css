@@ -1,0 +1,180 @@
+h1 {
+  color: rgb(175, 107, 52) !important;
+  font-size: 48px;
+  font-family: "Kanit", sans-serif;
+  margin: 0 0 !important;
+  padding: 0 !important;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.808);
+  width: 100%;
+  padding: 20px 10px;
+  margin-left: -10px;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+main form div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-size: 22px;
+  color: rgb(0, 153, 255);
+  font-weight: bolder;
+}
+main form p {
+  font-size: 36px;
+  font-family: "Parkinsans", sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: white;
+}
+main form label {
+  font-family: "Parkinsans", sans-serif;
+  font-size: 22px;
+}
+main form select {
+  width: 30%;
+  font-size: 26px;
+  font-family: "Parkinsans", sans-serif;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+main form select option {
+  color: rgb(0, 153, 255);
+}
+
+.boton {
+  display: flex;
+  margin: 0 40%;
+  width: 20%;
+  font-size: 26px;
+  border-radius: 30px;
+  background-color: rgb(0, 153, 255);
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+
+.bloque-form {
+  background-image: url("./img/logo orinoco sin fondo (1).png");
+  background-size: 6rem;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: rgba(0, 0, 0, 0.808);
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -10px;
+}
+
+.form-servicios:hover {
+  transform: perspective(1.2);
+  color: white;
+  transition: 0.9s;
+}
+
+.cuadro-texto {
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  height: 40px;
+}
+
+.area-texto {
+  border: none;
+  border-radius: 10px;
+  width: 60%;
+  height: 160px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+}
+
+.barra {
+  background-color: rgb(0, 153, 255);
+  width: 100%;
+  padding: 0 12px;
+  margin-left: -10px;
+}
+
+.barra > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0px 10px;
+  margin-bottom: 0 !important;
+}
+
+.barra > ul > li {
+  padding: 5px;
+  transition: 0.8sx;
+}
+
+.barra > ul > li:hover {
+  transform: scale(1.2);
+  color: tomato;
+}
+
+p,
+h3 {
+  font-family: "Parkinsans", sans-serif;
+  color: black;
+}
+
+.footer {
+  background-color: darkgray;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+}
+
+footer h3 {
+  color: white;
+  font-size: 28px;
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  padding: 35px 0px;
+}
+
+footer p {
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+  padding: 15px 40px;
+}
+
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  margin-top: 120px;
+}
+
+.contactos {
+  width: 5rem;
+  height: 5rem;
+  margin: 10px 35px;
+}
+
+.contactos-escala {
+  transition: 0.5s;
+}
+
+.contactos-escala:hover {
+  transform: scale(1.1);
+}
+
+.nav-contactos {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
