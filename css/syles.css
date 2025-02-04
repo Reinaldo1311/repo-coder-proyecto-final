@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(175, 107, 52) !important;
+    font-size: 48px !important;
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 15px;
+}
+
+.bloque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloque-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    width: 100%;
+    padding: 8px;
+}
+
+.logo {
+    width: 13.75em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+}
+
+.barra {
+    background-color: rgb(0, 153, 255);
+    width: 100%;
+
+}
+
+.barra>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.barra>ul>li {
+    padding: 5px;
+    transition: 0.8sx;
+}
+
+.barra>ul>li:hover {
+    transform: scale(1.2);
+    color: tomato;
+}
+
+/*-- estilos header pages --*/
+
+.bloque-pages {
+    background-image: url("../img/logo\ orinoco\ sin\ fondo\ \(1\).png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 6rem;
+    
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.main-pages {
+    background-color: rgba(0, 0, 0, 0.808);
+    font-family: "Parkinsans", sans-serif;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 480px;
+    grid-template-areas:
+        "texto enlace"
+        "imagen imagen";
+    justify-items: center;
+    align-items: center;
+}
+
+.texto {
+    grid-area: texto;
+}
+
+.enlace {
+    grid-area: enlace;
+    text-decoration: none;
+    color: black;
+    background-color: brown;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+
+.img-pages {
+    width: 25em;
+    grid-area: imagen;
+    transition: 0.8s;
+    border-radius: 15px;
+}
+
+.img-pages:hover{
+    transform: scale(1.1);
+}
+
+.cuerpo {
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+}
+
+.hero h2 {
+    color: rgb(0, 153, 255);
+    text-align: start;
+    margin-top: 25px;
+    font-size: 32px;
+    width: 60%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.hero p {
+    padding: 15px;
+    font-size: 24px;
+    width: 100%;
+}
+
+.hero-texto {
+    width: 60%
+}
+
+.carousel {
+    width: 40%;
+}
+
+.imgc1 {
+    width: 15rem;
+    height: 15rem;
+}
+
+.imgc2 {
+    width: 15rem;
+    height: 15rem;
+}
+
+.imgc3 {
+    width: 15rem;
+    height: 15rem;
+}
+
+section h2 {
+    text-align: center;
+    color: rgb(0, 153, 255);
+    margin-left: 10px;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(0, 153, 255);
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.esferas>img {
+    padding: 10px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.boton>a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.boton {
+    background-color: black;
+    border: 0;
+    padding: 0 10px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.boton:hover {
+    background-color: rgb(201, 235, 12);
+    transform: scale(1.2);
+}
+
+.boton>a:hover {
+    color: black;
+    transition: 0.8s;
+}
+
+p,
+h3 {
+    font-family: "Parkinsans", sans-serif;
+    color: black;
+}
+
+.footer {
+    background-color: darkgray;
+    width: 100%;
+}
+
+footer h3 {
+    color: white;
+    font-size: 28px;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    padding: 35px 0px;
+}
+
+footer p {
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    padding: 15px 40px;
+}
+
+h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+.contactos {
+    width: 5rem;
+    height: 5rem;
+    margin: 10px 35px;
+}
+
+.contactos-escala {
+    transition: 0.5s;
+}
+
+.contactos-escala:hover {
+    transform: scale(1.1);
+}
+
+.nav-contactos {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 620px) {
+
+    .barra>ul {
+        padding: 0 5px;
+    }
+
+    .barra>ul>li {
+        font-size: 10px;
+        text-align: center;
+        width: 14%;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        width: 100%;
+    }
+
+    .barra>ul {
+        padding: 0 5px;
+    }
+
+    .barra>ul>li {
+        font-size: 8px;
+        text-align: center;
+        width: 14%;
+    }
+
+    .servicios {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 280px 280px;
+    }
+
+    .esferas>h3 {
+        font-size: 18px;
+    }
+
+    footer p {
+        padding-top: 50px;
+    }
+
+    .imgsrvc {
+        height: 15rem;
+        width: 15rem;
+        padding: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin-right: 0;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+
+    .empresa {
+        color: rgb(175, 107, 52);
+        font-size: 18px !important;
+        font-family: "Kanit", sans-serif;
+        text-transform: uppercase;
+        bottom: 0;
+    }
+
+    .bloque-pages>h1 {
+        color: rgb(175, 107, 52);
+        font-size: 18px !important;
+        font-family: "Kanit", sans-serif;
+        text-transform: uppercase;
+        bottom: 0;
+        padding-bottom: 40px;
+    }
+
+    .img-pages {
+        width: 18em;
+    }
+
+    .enlace {
+        margin-bottom: 15px;
+    }
+
+    .logo {
+        width: 10em;
+    }
+
+    .contactos {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    footer h3 {
+        padding: 5px;
+    }
+
+    .esferas {
+        font-size: 12px;
+    }
+
+    .main-pages {
+        font-size: 14px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 220px 25px;
+        grid-template-areas:
+            "texto"
+            "imagen"
+            "enlace";
+    }
+
+    .nav-contactos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel {
+        width: 80%;
+    }
+}
