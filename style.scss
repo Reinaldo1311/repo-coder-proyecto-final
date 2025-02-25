@@ -197,13 +197,13 @@ h2 {
 @media (max-width: 620px) {
 
     .barra>ul {
-        padding: 0 5px;
+        padding: 0 5px !important;
     }
 
     .barra>ul>li {
-        font-size: 10px;
-        text-align: center;
-        width: 14%;
+        font-size: 10px !important;
+        text-align: center !important;
+        width: 14% !important;
     }
 }
 
@@ -219,25 +219,25 @@ h2 {
     }
 
     .contactos {
-        width: 3rem;
-        height: 3rem;
+        width: 3rem !important;
+        height: 3rem !important;
     }
 
     footer h3 {
-        padding: 5px;
+        padding: 5px !important;
     }
 
     p {
-        font-size: $size-f-uno;
+        font-size: $size-f-uno !important;
         
     }
 
     label {
-        font-size: $size-f-cinco;
+        font-size: $size-f-cinco !important;
     }
 
     .boton {
-        font-size: $size-f-cinco;
+        font-size: $size-f-cinco !important;
         
         
     }
