@@ -8,9 +8,10 @@ $size-f-uno: 22px;
 $size-f-dos: 26px;
 $size-f-tres: 36px;
 $size-f-cuatro: 48px;
+$size-f-cinco: 18px;
 
 h1 {
-    color: $color-uno !important;
+    color: #{$color-uno}!important;
     font-size: $size-f-cuatro;
     font-family: $fuente-dos;
     margin: 0 0 !important;
@@ -28,11 +29,11 @@ main {
         margin: 0 15px;
 
         div {
-           display: grid;
-           grid-template-columns: 2fr 1fr;
-           font-size: $size-f-uno;
-           color: $color-tres;
-           font-weight: bolder;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            font-size: $size-f-uno;
+            color: $color-tres;            
+            font-weight: bolder;
         }
 
         p {
@@ -58,8 +59,6 @@ main {
                 color: $color-tres;
             }
         }
-
-
     }
 }
 
@@ -217,6 +216,30 @@ h2 {
         font-size: 8px !important;
         text-align: center !important;
         width:14% !important;
+    }
+
+    .contactos {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    footer h3 {
+        padding: 5px;
+    }
+
+    p {
+        font-size: $size-f-uno;
+        
+    }
+
+    label {
+        font-size: $size-f-cinco;
+    }
+
+    .boton {
+        font-size: $size-f-cinco;
+        
+        
     }
 }
 

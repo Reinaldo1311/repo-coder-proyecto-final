@@ -196,6 +196,22 @@ h2 {
     text-align: center !important;
     width: 14% !important;
   }
+  .contactos {
+    width: 3rem;
+    height: 3rem;
+  }
+  footer h3 {
+    padding: 5px;
+  }
+  p {
+    font-size: 22px;
+  }
+  label {
+    font-size: 18px;
+  }
+  .boton {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
