@@ -208,6 +208,10 @@ h2 {
 }
 
 @media (max-width: 450px) {
+    h1 {
+        font-size: $size-f-tres;
+    }
+
     .barra>ul {
         padding: 0 5px !important;
     }
