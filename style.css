@@ -203,10 +203,10 @@ h2 {
   footer h3 {
     padding: 5px !important;
   }
-  main p {
+  main form p {
     font-size: 22px;
   }
-  main label {
+  main form label {
     font-size: 16px;
   }
   .boton {

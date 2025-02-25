@@ -228,7 +228,7 @@ h2 {
     }
 
     main {
-    
+        form{
             p {
                 font-size: $size-f-uno;
             }
@@ -236,7 +236,8 @@ h2 {
             label {
                 font-size: $size-f-cinco;
             }
-        }
+        }    
+    }
 
     .boton {
         font-size: $size-f-cinco !important;
