@@ -194,3 +194,29 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 620px) {
+
+    .barra>ul {
+        padding: 0 5px;
+    }
+
+    .barra>ul>li {
+        font-size: 10px;
+        text-align: center;
+        width: 14%;
+    }
+}
+
+@media (max-width: 450px) {
+    .barra>ul {
+        padding: 0 5px !important;
+    }
+
+    .barra>ul>li {
+        font-size: 8px !important;
+        text-align: center !important;
+        width:14% !important;
+    }
+}
+
