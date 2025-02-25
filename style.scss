@@ -8,7 +8,7 @@ $size-f-uno: 22px;
 $size-f-dos: 26px;
 $size-f-tres: 36px;
 $size-f-cuatro: 48px;
-$size-f-cinco: 18px;
+$size-f-cinco: 16px;
 
 h1 {
     color: #{$color-uno}!important;
@@ -227,19 +227,19 @@ h2 {
         padding: 5px !important;
     }
 
-    p {
-        font-size: $size-f-uno !important;
-        
-    }
-
-    label {
-        font-size: $size-f-cinco !important;
-    }
+    main {
+    
+            p {
+                font-size: $size-f-uno;
+            }
+    
+            label {
+                font-size: $size-f-cinco;
+            }
+        }
 
     .boton {
         font-size: $size-f-cinco !important;
-        
-        
-    }
+        }
 }
 
